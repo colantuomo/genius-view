@@ -23,6 +23,37 @@
   color: #61dafb;
 }
 
+.header-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 45px;
+  padding-top: 10px;
+}
+
+.input {
+  width: 350px
+}
+
+.ui.icon.input {
+  top: 0;
+  position: fixed;
+  margin-top: 5px;
+  z-index: 999;
+}
+
+.ui.icon.input>i.icon {
+  height: 35px;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
